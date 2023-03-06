@@ -1,0 +1,28 @@
+int checkPrime(int m){
+	int i;
+	if (m<=1) return 0;
+	for (i=2; i <= sqrt(m); i++)
+	{	if (m%i == 0) return 0;
+	}
+	return 1;
+} 
+main(){
+	int n,i,count=0,p,q;
+	printf("nhap n ");
+	scanf("%d", &n);
+	printf("nhap q ");
+	scanf("%d", &q);
+	printf("nhap p ");
+	scanf("%d", &p);
+	n++;i=n--;
+	while (count < q)
+	{	if (checkPrime(n) == 1) {count++; printf("%d ",n);n++;	}
+	   else n++;
+} 
+count=0;
+	while (count < p)
+	{	if (checkPrime(i) == 1) {count++; printf("%d ",i);i--;	}
+	   else i--;
+} 
+
+}

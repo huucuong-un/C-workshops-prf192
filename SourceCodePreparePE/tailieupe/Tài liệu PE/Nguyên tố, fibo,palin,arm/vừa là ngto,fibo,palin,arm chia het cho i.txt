@@ -1,0 +1,36 @@
+int checkPrime(int m){
+   int i;
+   if (m<=1) return 0;
+   for (i=2; i*i<=m; i++){
+   	if (m%i == 0) return 0;
+   }
+   return 1;
+}
+int checkFibo(int n){
+	int i1=0, i2=1,c;
+	if (n==0) return 0;
+	while(n>i1){
+		if (n==i2) return 1;
+		c=i2;
+		i2=i2+i1;
+		i1=c;
+	}
+	return 0;
+}
+main(){
+	int n,i,count,p,q,j;
+	int k;
+	printf("nhap i ");
+	scanf("%d",&i);
+	printf("nhap j ");
+	scanf("%d", &j);
+	q=pow(10,j);
+	p=pow(10,(j-1));
+    for(k=p;k<q;k++){
+        if (checkFibo(k) && checkPrime(k)){
+        if (k % i ==0){
+        	printf("%d ",k);
+		}
+	}
+} 
+}

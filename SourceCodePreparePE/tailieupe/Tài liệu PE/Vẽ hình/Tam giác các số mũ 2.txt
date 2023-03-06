@@ -1,0 +1,23 @@
+void vePower2(int n){
+	int k,l;
+	for (int i=0; i<n; i++){
+			for (int j=0; j<n-i-1; j++){ 
+				printf("   ");
+			}
+			for (int j=0;j<=i;j++){ 
+			    k=pow(2,j);
+			  	printf("%3d",k);	  	
+			}		
+			for (int j=i; j>0; j--){
+				l=pow(2,j-1);
+				printf("%3d",l);
+			}
+			printf("\n");
+	}
+}
+main(){
+	int n;
+	printf("nhap n ");
+	scanf("%d",&n);
+	vePower2(n);
+}

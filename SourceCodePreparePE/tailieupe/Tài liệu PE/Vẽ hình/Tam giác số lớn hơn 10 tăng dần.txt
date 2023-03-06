@@ -1,0 +1,29 @@
+//void veTamgiacU(int n){
+//	int k,l;
+//	for (int i=0; i<n; i++){
+//			for (int j=0; j<n-i-1; j++){ 
+//				printf("  ");
+//			}
+//			for (int j=1;j<=i+1;j++){ 
+//			    if(i < 5 && j < 5)
+//			  		printf("%d ",j+i);	
+//				else 
+//					printf("%d ",((i+j)%10));		
+//			}
+//			for (int j=i; j>0; j--){
+//				if(i < 5)
+//			  		printf("%d ",j+i);	
+//				else 
+//					printf("%d ",((i+j)%10));
+//				
+//			}
+//			printf("\n");
+//			}
+//	}
+//
+//main(){
+//	int n;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	veTamgiacU(n);
+//}

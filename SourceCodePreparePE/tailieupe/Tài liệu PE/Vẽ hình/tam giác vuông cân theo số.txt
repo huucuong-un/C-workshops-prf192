@@ -1,0 +1,92 @@
+//void veTamgiacso(int n){
+//	for (int i=0; i<n; i++){
+//		for (int j=1;j<=i+1;j++){
+//			printf("%d ",j);
+//		}
+//		printf("\n");
+//	}
+//}
+//main(){
+//	int n;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	veTamgiacso(n);
+//}
+
+//goc phan tu 2
+TH1:
+void veTamgiac1(int n){
+	for (int i=0; i<n; i++){
+			for (int j=0; j<n-i-1; j++){ // so khoang trong giong tam giac vuong can
+				printf("  ");
+			}
+			for (int j=i+1;j>0;j--){ // 2 tam giac vuong can ghep lai
+			  	printf("%d ",j);	  	
+			}		
+			printf("\n");
+	}
+}
+
+main(){
+	int n;
+	printf("nhap n ");
+	scanf("%d",&n);
+	veTamgiac1(n);
+}
+Th2:
+//void veTamgiac1(int n){
+//	for (int i=0; i<n; i++){
+//			for (int j=0; j<n-i-1; j++){ // so khoang trong giong tam giac vuong can
+//				printf("  ");
+//			}
+//			for (int j=1;j<=i+1;j++){ // 2 tam giac vuong can ghep lai
+//			  	printf("%d ",j);	  	
+//			}		
+//			printf("\n");
+//	}
+//}
+//
+//main(){
+//	int n;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	veTamgiac1(n);
+//}
+
+//goc phan tu 3
+
+//void veTamgiac2(int n){
+//	for (int i=0; i<n; i++){
+//			for (int j=0; j<i; j++){ // so khoang trong giong tam giac vuong can
+//				printf("  ");
+//			}
+//			for (int j=1;j<=n-i;j++){ // 2 tam giac vuong can ghep lai
+//			  	printf("%d ",j);	  	
+//			}		
+//			printf("\n");
+//	}
+//}
+//
+//main(){
+//	int n;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	veTamgiac2(n);
+//}
+
+//goc phan tu 4
+
+//void veTamgiacso3(int n){
+//	for (int i=0; i<n; i++){
+//		for (int j=n-i;j>0;j--){
+//			printf("%d ",j);
+//		}
+//		printf("\n");
+//	}
+//}
+//main(){
+//	int n;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	veTamgiacso3(n);
+//}

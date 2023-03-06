@@ -1,0 +1,28 @@
+/#include <stdio.h>
+//
+//int main()
+//
+//{
+//
+// int c, n, t = 1;
+//
+// printf("nhap so de tinh giai thua\n");
+//
+// scanf("%d", &n);
+//
+// for (c = 1; c <= n; c++)
+//
+//   t = t * c;
+//
+// printf("giai thua cua %d = %d\n", n, t);
+//
+// return 0;
+//
+//} 
+hàm
+int giaiThua(int n)
+{
+    if (n == 1)
+        return 1;
+    return n * giaiThua(n - 1);
+}

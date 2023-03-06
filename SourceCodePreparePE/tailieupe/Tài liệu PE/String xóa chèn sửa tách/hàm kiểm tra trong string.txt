@@ -1,0 +1,7 @@
+Strcat (nối chuỗi)
+Strcmp (so sánh non)
+Isalpha (check có phải chữ cái không)
+Isdigit (check có phải số không)
+Isspace (check có phải dấu space không)
+Toupper (viết hoa những chữ viết thường) #include<cctype>
+Tolower (viết thg những chữ viết hoa)

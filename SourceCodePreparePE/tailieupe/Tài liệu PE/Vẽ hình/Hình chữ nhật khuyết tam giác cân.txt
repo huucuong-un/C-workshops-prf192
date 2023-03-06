@@ -1,0 +1,58 @@
+Xuôi 
+/void veHinhS(int n){
+//	for (int i = 0;i < n ;i++){
+//		for (int j = 0; j<i+1; j++){
+//			printf("%d ",j+1);
+//		}
+//		for (int j=0;j < 2*(n-i-1)-1;j++){ //de tam giac o goc 2 (j < n-i-1)
+//			printf("  ");
+//		}
+//	    if (i<n-1){
+//			for (int j=i;j>=0;j--){
+//			printf("%d ",j+1);
+//			}
+//		}
+//		if (i>=n-1){    // in ra dong cuoi 
+//			for (int j=i-1;j>=0;j--){
+//			printf("%d ",j+1);
+//			}
+//		}
+//		printf("\n");
+//	}
+//}
+//main(){
+//	int n;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	veHinhS(n);
+//}
+
+//ve hinh t
+Ngược
+//void veHinhT(int n){
+//	for (int i = 0;i < n ;i++){
+//		for (int j = 0; j<n-i; j++){
+//			printf("%d ",j+1);
+//		}
+//		for (int j=0;j < 2*i-1 ;j++){ // so khoang trong
+//			printf("  ");
+//		}
+//	    if (i>=1){
+//			for (int j=n-i-1;j>=0;j--){
+//			printf("%d ",j+1);
+//			}
+//		}
+//		if (i >= 0 && i < 1){    // in ra dong dau 
+//			for (int j=n-2;j>=0;j--){
+//			printf("%d ",j+1);
+//			}
+//		}
+//		printf("\n");
+//	}
+//}
+//main(){
+//	int n;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	veHinhT(n);
+//}

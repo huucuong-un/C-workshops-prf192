@@ -1,0 +1,20 @@
+void vePascal(int n){
+	int kq=1;
+	for (int i=1; i<=n; i++){
+//		for (int j=0; j<n-i; j++){ 
+//				printf("  ");
+//		}
+		printf("1 ");
+		for (int j=2; j<=i; j++){
+			kq=kq*(i-j+1)/(j-1);
+			printf("%d ",kq);
+		}
+		printf("\n");
+	}
+}
+main(){
+	int n;
+	printf("nhap n ");
+	scanf("%d",&n);
+	vePascal(n);
+}

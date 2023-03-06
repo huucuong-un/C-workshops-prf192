@@ -1,0 +1,35 @@
+//int main(){
+//float a,b,c,delta,x,x1,x2;
+//printf("a = ");
+//	scanf("%f",&a);
+//	printf("b = ");
+//	scanf("%f",&b);
+//	printf("c = ");
+//	scanf("%f",&c); 
+//	delta = b*b - 4*a*c;
+//	if (a == 0) {
+//     if (b != 0){
+//		x = -c/b;
+//		printf("x = %f", x);
+//	}
+//   else if ((b == 0) && (c != 0)){
+//		printf("phuong trinh vo nghiem ");
+//	}
+//	else{
+//		printf("phuong trinh vo so nghiem");
+//	}
+//  }
+//	else{
+//		if (delta < 0){
+//			printf("phuong trinh vo nghiem");
+//		}		if (delta == 0){
+//			x= -b/(2*a);
+//			printf("phuong trinh co nghiem kep %f", x);		}
+//		if (delta > 0){
+//			x1 = (-b + sqrt(delta))/(2*a);
+//			x2 = (-b - sqrt(delta))/(2*a);
+//			printf("phuong trinh co 2 nghiem phan biet x1 = %f va x2 = %f", x1, x2);
+//		}
+//	}
+//	return 0;
+//}

@@ -1,0 +1,49 @@
+#include<stdio.h>
+#include<math.h>
+int snto(int soA){
+    if (soA < 2)    
+        return 0;
+
+    for (int i = 2; i <= sqrt((float)soA); i ++)
+    {
+        if (soA%i==0)
+        {
+            return 0;
+        }
+    }
+    return 1;}
+    
+ int  ktra(int i){
+ int k=1, count=0;
+  while(count<i){
+  	if (snto(k)==1) count++;
+  	k++;}
+  	return k-1;}
+   
+int main(){
+int a,n,i,j;
+scanf("%d",&n);
+a=1;
+
+i=1;
+while(i<n)
+{
+	for(j=1; j<i; j++) 
+		{
+		printf("%d",ktra(a)); printf(" "); 
+		a++;
+		}
+		printf("%d",ktra(a)); 
+		a++;
+	printf("\n");
+ i++;	
+}
+i=n;
+for(j=1; j<i; j++) 
+		{
+		printf("%d",ktra(a)); printf(" "); 
+		a++;
+		}
+		printf("%d",ktra(a)); 
+		a++;
+}

@@ -1,0 +1,62 @@
+//int UCLN(int a, int b){
+//    if (a == 0 || b == 0){
+//        return a + b;
+//    }
+//    while (a != b){
+//        if (a > b){
+//            a -= b; 
+//        }else{
+//            b -= a;
+//        }
+//    }
+//    return a; 
+//}
+//int BCNN(int a, int b) {
+//    return (a*b) / UCLN(a, b);
+//}
+//main(){
+//	int a,b;
+//	printf("nhap a ");
+//	scanf("%d", &a);
+//	printf("nhap b ");
+//	scanf("%d", &b);
+//	if (UCLN(a,b) && BCNN(a,b)){
+//		printf("%d ",UCLN(a,b)); printf("%d ", BCNN(a,b));
+//	}
+//}
+
+//int UCLN(int a, int b) {
+//    if (b == 0) return a;
+//    return UCLN(b, a % b);
+//}
+//int BCNN(int a, int b) {
+//    return (a*b) / UCLN(a, b);
+//}
+//int main() {
+// int a, b;
+//    printf("Nhap so nguyen duong a = ");
+//    scanf("%d", &a);
+//    printf("Nhap so nguyen duong b = ");
+//    scanf("%d", &b);
+//    printf("USCLN cua %d va %d la: %d\n", a, b, UCLN(a, b));
+//    printf("BSCNN cua %d va %d la: %d\n", a, b, BCNN(a, b));
+//} 
+
+//int main(){
+//    int a,b,uc,bc;
+//    printf("Nhap (a,b): ");
+//    scanf("%d%d",&a,&b);
+//    for (uc=a;uc>=1;uc--){
+//        if (a%uc==0 && b%uc==0){
+//            printf("UCLN(%d,%d)=%d\n",a,b,uc);
+//            break;
+//        }
+//    }
+//    for (bc=a;bc<=a*b;bc++){
+//        if (bc%a==0 && bc%b==0){
+//            printf("BCNN(%d,%d)=%d\n",a,b,bc);
+//            break;
+//        }
+//    }
+//    return 0;
+//}

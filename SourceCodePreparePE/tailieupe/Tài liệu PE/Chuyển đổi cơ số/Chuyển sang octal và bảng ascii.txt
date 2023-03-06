@@ -1,0 +1,3 @@
+char cr;
+scanf("%c",&cr)
+printf("%d %.4o,cr,cr)  (%d để chuyển sang ascii và %o chuyen sang octal)

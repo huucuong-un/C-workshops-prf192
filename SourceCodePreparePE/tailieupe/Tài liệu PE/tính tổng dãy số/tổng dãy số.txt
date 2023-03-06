@@ -1,0 +1,94 @@
+//1.      Tinh S=1^2+2^3+3^4+...+n^(n+1).
+#include<stdio.h>
+#include<math.h>
+
+//main(){
+//	int n,so=0,j;
+//	int S=0;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	for (int i= 1; i<=n; i++){
+//			S = S + pow(i,(i+1)); 
+//		}		
+//	printf("%d ", S);
+//}
+
+//2.          S=x^1+x^2+...+x^n ( nhap n va x)
+//main(){
+//	int n,so=0,x;
+//	int S=0;
+//	printf("nhap x ");
+//	scanf("%d",&x);
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	for (int i= 1; i<=n; i++){
+//			S = S + pow(x,i); 
+//		}		
+//	printf("%d ", S);
+//}
+
+//3.S=1/1+1/1(1+2)+1/(1+2+3)+...+1/(1+2+...+n)
+//main(){
+//	int n,x,j;
+//	double S=0;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	for (int i= 1; i<=n; i++){
+//		x=(i+1)*i; 
+//		j= x/2; 
+//			S = S + 1.0/j;
+//		}		
+//	printf("tong la %lf ", S);
+//}
+
+//4. S= 1/1!+1/(2!)+1/(3!)+...+1/(n!)
+
+//main(){
+//	int n,x,j=1;
+//	double S=0;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	for (int i= 1; i<=n; i++){
+//		j=j*i; 
+//		S = S + 1.0/j;
+//		}		
+//	printf("tong la %lf ", S);
+//}
+
+//5.S=1-1/2+1/3-1/4+1/5-...+(/-)1/n
+
+//main(){
+//	int n;
+//	double Y=0,j,X=0,S=0;
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	for (int i = 1; i<=n; i++){
+//		if (i % 2 == 0){
+//	        j=1.0/-i;
+//			X= X + j;	 
+//		} 
+//		if ( i % 2 != 0 ){
+//			Y= Y + 1.0/i;  
+//		}
+//		S= X+Y;
+//	}
+//printf("tong la %lf ",S); 
+//}
+ 
+//6. S=1+x^2/2!+x^4/4!+...+x^(2n)/(2n!)
+
+//main(){
+//	int n,so=0,x,gt=1,j=1;
+//	float S=0,K=0;
+//	printf("nhap x ");
+//	scanf("%d",&x);
+//	printf("nhap n ");
+//	scanf("%d",&n);
+//	for (int i= 1; i<=n; i++){		
+//        gt=i*2; 
+//       	j=j*gt*(gt-1); 
+//	    K= pow(x,2*i);
+//			S = S + K/j; 
+//		}		
+//	printf("tong la %f ", S+1);
+//}

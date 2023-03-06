@@ -1,0 +1,103 @@
+//Selection sort
+//#include<stdio.h>
+//int main(){
+//	int n,a[n],i,j,min,max,temp;
+//	printf("nhap n: ");
+//	scanf("%d",&n);
+//	for(i=0;i<n;i++){
+//		printf("nhap a[%d]: ", i);
+//		scanf("%d",&a[i]);
+//	} 
+//	for(i=0;i<n-1;i++){
+//		min=i;
+//		for(j=i+1;j<n;j++){
+//			if(a[j]<a[min]) min=j;
+//		}
+//		temp=a[i];
+//		a[i]=a[min];
+//		a[min]=temp;	
+//	}
+//	for(i=0;i<n-1;i++){
+//		max=i;
+//		for(j=i+1;j<n;j++){
+//			if(a[j]>a[max]) max=j;
+//		}
+//		temp=a[i];
+//		a[i]=a[max];
+//		a[max]=temp;
+//	}
+//	printf("Sap xep: ");
+//	for(i=0;i<n;i++){
+//		printf("%d ",a[i]);
+//	}
+//} 
+
+//Intercharge
+//#include<stdio.h>
+//int main(){
+//	int n,a[n],i,j,temp; 
+//	printf("nhap n: ");
+//	scanf("%d",&n);
+//	for(i=0;i<n;i++){
+//		printf("nhap a[%d]: ", i);
+//		scanf("%d",&a[i]);
+//	} 
+//	for (int i = 0; i < n-1; i++)
+//      for (int j = i+1; j < n; j++)
+//         if (a[i] > a[j])
+//         {
+//            int temp = a[i];
+//            a[i] = a[j];
+//            a[j] = temp;
+//         }
+//         
+//	printf("Sap xep: ");
+//	for(i=0;i<n;i++) printf("%d ",a[i]);
+//} 
+//Bubble sort
+//#include<stdio.h>
+//#include<math.h>
+//int main(){
+//	int n,a[n],i,j,temp,swap; 
+//	printf("nhap n: ");
+//	scanf("%d",&n);
+//	for(i=0;i<n;i++){
+//		printf("nhap a[%d]: ", i);
+//		scanf("%d",&a[i]);
+//	} 
+//		for (int i = 0; i < n - 1; i++){
+//			swap=i;
+//		for (int j = n - 1; j > i; j--){
+//			if(a[j] < a[i]) swap=j;
+//		}
+//			temp=a[i];
+//			a[i]=a[swap];
+//			a[swap]=temp;
+//	}
+//		printf("Sap xep: ");
+//		for(i=0;i<n;i++) printf("%d ",a[i]);
+//} 
+
+//Insertion sort
+//#include<stdio.h>
+//#include<math.h>
+//int main(){
+//	int n,a[n],i,pos,x; 
+//	printf("nhap n: ");
+//	scanf("%d",&n);
+//	for(i=0;i<n;i++){
+//		printf("nhap a[%d]: ", i);
+//		scanf("%d",&a[i]);
+//	} 
+//		for(int i = 1; i < n; i++){ 
+//		x = a[i]; 
+//		pos = i;
+//		while(pos > 0 && x < a[pos-1]){
+//			a[pos] = a[pos-1];
+//			pos--;
+//		}
+//		a[pos] = x;
+//	}
+//		printf("Sap xep: ");
+//		for(i=0;i<n;i++) printf("%d ",a[i]);
+//}

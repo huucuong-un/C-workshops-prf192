@@ -1,0 +1,28 @@
+void veHinhthoi(int n){
+	for (int i=0; i<n; i++){
+		if (i <= (n/2)+0.5){
+			for (int j=0; j<n-i-1; j++){ // so khoang trong giong tam giac vuong can
+				printf("  ");
+			}
+			for (int j=0;j<i*2+1;j++){ // 2 tam giac vuong can ghep lai
+			  	printf("* ");	  	
+			}		
+			printf("\n");
+		}
+		if (i >(n/2)+0.5){
+			for (int j=0; j<i; j++){ // so khoang trong giong tam giac vuong can
+			printf("  ");
+			}
+			for (int j=0;j<n*2-1-i*2;j++){ 
+		  	printf("* ");	  	
+			}		
+		printf("\n");
+		}		
+    }
+}
+main(){
+	int n;
+	printf("nhap n ");
+	scanf("%d",&n);
+    veHinhthoi(n);
+	}

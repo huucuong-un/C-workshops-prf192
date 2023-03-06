@@ -1,0 +1,62 @@
+//int main(){
+//	int sotien,sodu;
+//	int to500,to200,to100,to50,to20,to10,to5,to2,to1;
+//	int min; 
+//	printf("nhap vao so tien ");
+//	scanf("%d", &sotien);	
+//	to500 = sotien/500;	
+//	sodu = sotien%500;	
+//    to200 = sodu/200;
+//    sodu = sodu%200;
+//    to100 = sodu/100;
+//    sodu = sodu%100;
+//    to50 = sodu/50;
+//    sodu = sodu%50;
+//    to20 = sodu/20;
+//	sodu = sodu%20;
+//	to10 = sodu/10;
+//	sodu = sodu%10;
+//	to5 = sodu/5;
+//	sodu = sodu%5;
+//	to2 = sodu/2;
+//	sodu = sodu%2;
+//    to1 = sodu/1;
+//	min = sodu;	
+//	 if (to500 != 0) {	
+//	printf("so to 500 la %d\n", to500); }
+//	 if (to200 != 0){
+//	printf("so to 200 la %d\n", to200);}
+//	 if (to100 != 0){
+//	printf("so to 100 la %d\n", to100); }
+//	 if (to50 != 0){
+//	printf("so to 50 la %d\n", to50); }
+//	 if (to20 != 0){
+//	printf("so to 20 la %d\n", to20); }
+//	  if (to10 != 0){
+//	printf("so to 10 la %d\n", to10);}
+//	 if (to5 != 0){
+//	printf("so to 5 la %d\n", to5);}
+//	 if (to2 != 0){
+//	printf("so to 2 la %d\n", to2);}
+//	 if (to1 != 0){
+//	printf("so to 1 la %d\n", to1); 
+//    printf("menh gia nho nhat la %d to 1", to1);}
+//    else if(to2 != 0){
+//     	printf("menh gia nho nhat la %d to 2", to2);}
+//    else if (to5 != 0){
+//    	printf("menh gia nho nhat la %d to 5", to5);
+//	} else if (to10 != 0){
+//		printf("menh gia nho nhat la %d to 10", to10);		
+//	} else if (to20 != 0){
+//		printf("menh gia nho nhat la %d to 20", to20);
+//	} else if (to50 != 0){
+//		printf("menh gia nho nhat la %d to 50", to50);
+//	} else if (to100 != 0){
+//		printf("menh gia nho nhat la %d to 100", to100);
+//    } else if (to200 != 0){
+//		printf("menh gia nho nhat la %d to 200", to200);
+//    } else if (to500 != 0){
+//		printf("menh gia nho nhat la %d to 500", to500);
+//    }
+//	return 0;
+//}

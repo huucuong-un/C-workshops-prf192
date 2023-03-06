@@ -1,0 +1,57 @@
+//int checkArm(int n){
+//    int c, sum=0, p=n,cnt=0;
+//    while (p){
+//    	p=p/10;
+//    	cnt++;
+//	}
+//	p=n;
+//	while(p){
+//		c=p%10;
+//		p=p/10;
+//		sum=sum+pow(c,cnt);
+//	} 
+//	if (sum==n) return 1;
+//	return 0;
+//}
+//main(){
+//	int i,count,p,q;
+//	printf("nhap p ");
+//	scanf("%d", &p);
+//	printf("nhap q ");
+//	scanf("%d", &q);
+//    for(i=p;i<q;i++){
+//       if (checkArm(i) == 1){
+//        	printf("%d ",i);
+//		}
+//	}
+//}
+
+//int (checkPalin(int n)){
+//	int count=0, c=n;
+//	while (c){
+//		c/=10;
+//		count++;
+//	}
+//	while (n){
+//		int g=pow(10,(count-1));
+//		if (n%10 == n/g){
+//			n=n%g;
+//			n=n/10;
+//			count=count-2;
+//		}
+//		else return 0;
+//	}
+//	return 1;
+//}
+//main(){
+//	int i,count,p,q;
+//	printf("nhap p ");
+//	scanf("%d", &p);
+//	printf("nhap q ");
+//	scanf("%d", &q);
+//    for(i=p;i<q;i++){
+//       if (checkPalin(i) == 1){
+//        	printf("%d ",i);
+//		}
+//	}
+//}

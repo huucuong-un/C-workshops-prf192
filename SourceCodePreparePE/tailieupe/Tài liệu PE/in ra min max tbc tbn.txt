@@ -1,0 +1,35 @@
+int main() {
+    
+   int n;
+    printf("nhap n = ");
+     scanf("%d", &n);
+    float a;
+   float tong;
+    float tich = 1;
+    float tbc;
+    float tbn;
+    int i;
+    float max = -999999, min = 999999;  
+    for (i=0; i < n; i++){
+       scanf("%f", &a);     
+         tong = tong + a;     
+        tich = tich * a;
+        if ( a > max){
+        	max = a; 
+ 		}
+		if (a < min){
+ 			min = a;
+ 		}
+ 	  }  
+ 	printf("MIN %f\n",min);
+     printf("MAX %f\n",max);
+	  
+     tbc = tong/n;
+    printf("TBC %f\n", tbc);   
+      float c;    
+     c = 1.0/n;
+     tbn = pow(tich,c);	
+ 	printf("TBN %f\n", tbn);
+  
+    return 0;
+}
